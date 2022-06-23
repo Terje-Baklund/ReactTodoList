@@ -13,18 +13,7 @@ export default function Body() {
             completed: [],
             removed: []
         }
-    //     {
-    //     active: [
-    //         ["Clean house", "Vacuum top and bottom floor, put books back in place and pick up all the trash in the entire house.", "22/5"],
-    //         ["Walk dog", "Take dog for at least a 20 min walk", "22/5"],
-    //         ["Make dinner", "Lasagne with extra chese and garlic bread", "22/5"]
-    //     ],
-    //     completed: [["hello", "there", "22/5"]],
-    //     removed: [{ title: "I was removed", description: ":(", date: "22/5", completed: false }]
-    // }
     )
-    // var activeElements = todoArray.active.map(([title, desc, date]) => <Todo title={title} description={desc} updateState={setTodoArray} completed={false} date={date} />)
-    // var completedElements = todoArray.completed.map(([title, desc, date]) => <Todo title={title} description={desc} updateState={setTodoArray} completed={true} date={date} />)
     var activeElements = todoArray.active.map(
         obj =>
             <Todo
